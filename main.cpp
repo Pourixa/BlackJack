@@ -1,3 +1,9 @@
-//
-// Created by pouri on 4/28/2026.
-//
+#include "interface.h"
+
+int main()
+{
+    player p;
+    dealer d;
+    for (int i = 0 ; i<3 ; i++)
+    sayWinner(game(p,d),d,p);
+}
